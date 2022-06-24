@@ -1,0 +1,13 @@
+{
+  "name": "good-enough-reads",
+  "version": "1.0.0",
+  "description": "A vanilla TS app with a brutalist design for tracking and rating books read",
+  "main": "index.ts",
+  "repository": "git@github.com:bjpennington/good-enough-reads.git",
+  "author": "BJ Pennington <bjpennington112@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
