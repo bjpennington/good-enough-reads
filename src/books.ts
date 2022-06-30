@@ -1,0 +1,16 @@
+const books = [
+  {
+    "title": "Magic for Beginners",
+    "author": "Kelly Link"
+  },
+  {
+    "title": "A Field Guide to the Midwest",
+    "author": "Kaufman"
+  },
+  {
+    "title": "Vegan Chocolates and Caramels",
+    "author": "Lagusta Something"
+  }
+]
+
+export default books
