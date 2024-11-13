@@ -2,7 +2,9 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
-    /* Projects */
+    /* 
+      Projects
+    */
 
     /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "incremental": true,
@@ -22,7 +24,9 @@
     /* Reduce the number of projects loaded automatically by TypeScript. */
     // "disableReferencedProjectLoad": true,
 
-    /* Language and Environment */
+    /*
+      Language and Environment
+    */
 
     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "target": "es2016",
@@ -60,7 +64,9 @@
     /* Control what method is used to detect module-format JS files. */
     // "moduleDetection": "auto",
 
-    /* Modules */
+    /*
+      Modules
+    */
 
     /* Specify what module code is generated. */
     "module": "NodeNext",
@@ -116,7 +122,9 @@
     /* Disallow 'import's, 'require's or '<reference>'s from expanding the number of files TypeScript should add to a project. */
     // "noResolve": true,
 
-    /* JavaScript Support */
+    /*
+      JavaScript Support
+    */
 
     /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
     // "allowJs": true,
@@ -127,7 +135,9 @@
     /* Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'. */
     // "maxNodeModuleJsDepth": 1,
 
-    /* Emit */
+    /*
+      Emit
+    */
 
     /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
     // "declaration": true,
@@ -192,7 +202,9 @@
     /* Specify the output directory for generated declaration files. */
     // "declarationDir": "./",
 
-    /* Interop Constraints */
+    /*
+      Interop Constraints
+    */
 
     /* Ensure that each file can be safely transpiled without relying on other imports. */
     // "isolatedModules": true,
@@ -215,7 +227,9 @@
     /* Ensure that casing is correct in imports. */
     "forceConsistentCasingInFileNames": true,
 
-    /* Type Checking */
+    /*
+      Type Checking
+    */
 
     /* Enable all strict type-checking options. */
     "strict": true,
@@ -277,7 +291,9 @@
     /* Disable error reporting for unreachable code. */
     // "allowUnreachableCode": true,
 
-    /* Completeness */
+    /* 
+      Completeness
+    */
 
     /* Skip type checking .d.ts files that are included with TypeScript. */
     // "skipDefaultLibCheck": true,
@@ -285,5 +301,5 @@
     /* Skip type checking all .d.ts files. */
     "skipLibCheck": true
   },
-  "exclude": ["**/*.test.ts"]
+  "include": ["app/**/*"]
 }
