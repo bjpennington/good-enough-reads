@@ -1,5 +1,5 @@
-console.log("Hello world!");
+console.log('Hello world!');
 
 export const testFunction = () => {
-  return "Hello world!";
+  return 'Hello world!';
 };
